@@ -4,9 +4,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Startendo</title>
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    background: linear-gradient(90deg, #ff9aa2, #ffb7b2, #ffdac1, #e2f0cb, #b5ead7, #c7ceea, #ff9aa2);
+    background-size: 400% 400%;
+    animation: rainbow 15s ease infinite;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#logo {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+#hbtext {
+    position: absolute;
+    font-size: 48px;
+    color: #333333;
+    margin-top: 375px;
+    margin-left: 1000px;
+}
+        </style>
     </head>
     <body>
-        <p>placeholder</p>
-        <img src="george.jpg">
+        <img id="logo" src="startendo.png">
+        <p id="hbtext">Homebrew,<br>made for everyone.</p>
     </body>
 </html>
