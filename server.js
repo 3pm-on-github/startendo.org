@@ -16,9 +16,9 @@ app.get('/', async (req, res) => {
   res.send(readFile("index.html"));
 });
 
-app.get('/startendo.jpg', async (req, res) => {
-  res.setHeader('content-type', 'image/jpeg');
-  res.send(readFile("startendo.jpg"));
+app.get('/startendo.png', async (req, res) => {
+  res.setHeader('content-type', 'image/png');
+  res.send(readFile("startendo.png"));
 });
 
 app.listen(HTTP_PORT, () => {
