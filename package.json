@@ -1,0 +1,16 @@
+{
+  "name": "startendo.org",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "startendo"
+  ],
+  "author": "3pm",
+  "description": "Startendo.org Website",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
